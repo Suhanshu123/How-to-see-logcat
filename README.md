@@ -4,25 +4,29 @@
 
 ## Solution:-
 
-The best way to learn is by solving your problem by yourself. Here I'll tell you how to proceed when your app crash suddenly.
-If your application crash then follow below steps and you'll get to know where your error comes from :
+The best way to learn is by solving problem by yourself. Here I'll tell you how to proceed when your app crashes suddenly and you have no idea how to proceed. 
+
+If your application crashes then follow below steps and you'll get to know where your error comes from :
 
 ### 1- First checkout your logcat. Don't know about logcat- Not worry just follow the steps:-
        
-  Logcat is a command-line tool that dumps a log of system messages, including stack traces when the device throws an error and messages that you have written from your app with the Log class. [Definition by :- https://developer.android.com/studio/command-line/logcat.html ]
+  ####  What is logcat ?
+  
+  Logcat is a command-line tool that dumps a log of system messages, including stack traces when the device throws an error and messages that you have written from your app with the Log class. 
+  [Definition by :- https://developer.android.com/studio/command-line/logcat.html ]
          
-####  a) You can find logcat in the bottom of your Android Screen.
+####  a) You can find logcat in the bottom of your Android Studio Screen.
 
 
 ![logcat](https://user-images.githubusercontent.com/25812257/37620112-580c5e1e-2be1-11e8-91b1-32f42b4662f9.PNG)
 
 
-####  b) Click "logcat" and  there u see lot of messages.
+####  b) Click "logcat" and  there you see lot of messages.
 
 ![logcat2](https://user-images.githubusercontent.com/25812257/37625346-8e1b5662-2bf1-11e8-954f-1421c2958318.PNG)
 
 
-####  c) Next step is to filter our logcat to error mode so that we can see only those message which are related to error.Change your logcat from verbose to error mode.
+####  c) Next step is to filter our logcat to error mode so that we can see only those message which are related to error.Change your logcat from verbose to error mode and here is your logc
 
 
 ![errormode](https://user-images.githubusercontent.com/25812257/37625352-93477846-2bf1-11e8-9128-72374b4d070b.PNG)
