@@ -8,8 +8,8 @@ The best way to learn is by solving problem by yourself. Here I'll tell you how 
 
 If your application crashes then follow below steps and you'll get to know where your error comes from :
 
-### 1- First checkout your logcat. Don't know about logcat- Not worry just follow the steps:-
-       
+### 1-Check  your logcat. 
+
   ####  What is logcat ?
   
   Logcat is a command-line tool that dumps a log of system messages, including stack traces when the device throws an error and messages that you have written from your app with the Log class. 
