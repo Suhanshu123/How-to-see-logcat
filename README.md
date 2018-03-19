@@ -4,7 +4,7 @@
 
 ## Solution:-
 
-The best way to learn is by solving problem by yourself. Here I'll tell you how to proceed when your app crashes suddenly and you have no idea how to proceed. 
+The best way to learn is by solving problem by yourself. Here I'll tell you how to proceed when your app crashes suddenly and you have no idea.
 
 If your application crashes then follow below steps and you'll get to know where your error comes from :
 
