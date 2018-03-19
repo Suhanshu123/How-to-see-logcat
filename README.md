@@ -1,6 +1,6 @@
 # How-to-see-logcat
 
-## 17. How about finding your error by yourself ?
+## How about finding your error by yourself ?
 
 ## Solution:-
 
