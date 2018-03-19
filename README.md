@@ -59,4 +59,4 @@ But when we run the program, our program will crash so we'll open the logcat as 
  
  Here you see that, we're not taking integers string for s1 so while parsing that string into integers in creates error.
  
- ###  Tips :- Sometimes your logcat is not as clear or more complex as compare to this example so in that case we'll copy that lines and paste into google and in many cases first link is of stack-overflow and you will get answer of many questions.
+ ###  Tips :- Sometimes your logcat is not as clear or more complex as compare to this example so in that case you'll copy the highlighted lines of your logcat and paste into google and in many cases first link is of stack-overflow and you will get answer of your questions.
