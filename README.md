@@ -49,7 +49,7 @@ But when we run the program, our program will crash so we'll open the logcat as 
 
 ###  Great now you learn how to open logcat. Now question arises how to see logcat.
 
-  We will look after only the highlighted lines in the every logcat...if you see those highlighted lined then you can see that error  is related to "NumbeFormatException"...and also you see "abc" ;with a little knowledge of "NumbeFormatException" you can think that something is related to NumberConversion and also there is something wrong about "abc" ...and you can see that these error occur in the Mainactivity.java. So, we'll move to MainActivity.java
+  We will look  only the highlighted lines in  logcat...if you see those highlighted lines then you can see that error is related to "NumbeFormatException"...and also you see ' Invalid int: "abc" ' ,with a knowledge of "NumbeFormatException" and ' Invalid int: "abc" ' we can guess that error is related to NumberConversion and also there is something wrong with "abc" ...and you can see that these error occur in the Mainactivity.java. So, we'll move to MainActivity.java
   
   
  #### Mainactivity.java
@@ -57,6 +57,6 @@ But when we run the program, our program will crash so we'll open the logcat as 
  ![dfs](https://user-images.githubusercontent.com/25812257/37627349-fdf68d78-2bf9-11e8-9a26-8af78b1c1a45.PNG)
  
  
- Here you see that, we're not taking integers string for s1 so while parsing that string into integers in creates error.
+ Now, we'll look our Mainactivity.java. Here you see that, we're not taking integers string for s1 so while parsing that string into integers in creates error.
  
  ###  Tips :- Sometimes your logcat is not as clear or more complex as compare to this example so in that case you'll copy the highlighted lines of your logcat and paste into google and in many cases first link is of stack-overflow and you will get answer of your questions.
