@@ -6,33 +6,35 @@
 
 The best way to learn is by solving problem by yourself. Here I'll tell you how to proceed when your app crashes suddenly and you have no idea.
 
-If your application crashes then follow below steps and you'll get to know where your error comes from :
+If your application crashes then we'll be looking after " logcat ".
 
-### 1-Check  your logcat. 
-
-  ####  What is logcat ?
+ ### What is logcat ?
   
   Logcat is a command-line tool that dumps a log of system messages, including stack traces when the device throws an error and messages that you have written from your app with the Log class. 
   [Definition by :- https://developer.android.com/studio/command-line/logcat.html ]
-         
-####  a) You can find logcat in the bottom of your Android Studio Screen.
+  
+
+          
+###  a) You can find logcat in the bottom of your Android Studio Screen.
 
 
 ![logcat](https://user-images.githubusercontent.com/25812257/37620112-580c5e1e-2be1-11e8-91b1-32f42b4662f9.PNG)
 
 
-####  b) Click "logcat" and  there you see lot of messages.
+###  b) Click "logcat" and  there you see lot of messages.
 
 ![logcat2](https://user-images.githubusercontent.com/25812257/37625346-8e1b5662-2bf1-11e8-954f-1421c2958318.PNG)
 
 
-####  c) Next step is to filter our logcat to error mode so that we can see only those message which are related to error.Change your logcat from verbose to error mode and here is your logc
+### c) Next step is to filter our logcat to error mode so that we can see only those message which are related to error.Change your logcat from verbose to error mode and here is your logc
 
 
 ![errormode](https://user-images.githubusercontent.com/25812257/37625352-93477846-2bf1-11e8-9128-72374b4d070b.PNG)
 
 
-Now, we'll do practice on the below example. The program  converts two string numbers into integers and then calculating the sum and then printing the result into the textView as you can see the layout.xml.
+Great!! now you know how to open logcat. Now let's learn how to use logcat.
+
+Let's take an example.  The Below program  converts two string numbers into integers and then calculating the sum and then printing the result into the textView as you can see the layout.xml.. but to learn how to use logcat I have made mistake in this code..Let's resolve the error by seeing the logcat. 
 
 
 #####  MainActivity.java
@@ -43,13 +45,13 @@ Now, we'll do practice on the below example. The program  converts two string nu
 
 ![resultlayout](https://user-images.githubusercontent.com/25812257/37626573-9c65761c-2bf6-11e8-8e47-04868a1354c4.PNG)
 
-But when we run the program, our program will crash so we'll open the logcat as we're told above. The logcat for above example looks like :- 
+But when we run the program, our program will crash so we'll open the logcat as we're told above.[Note : If you're using external device to run the app then it must remain conntectd to your android studio].The logcat for above example looks like :- 
 
 ![ssdfg](https://user-images.githubusercontent.com/25812257/37626899-eaf702fe-2bf7-11e8-8700-305b0cd09b23.PNG)
 
-###  Great now you learn how to open logcat. Now question arises how to see logcat.
 
-  We will look  only the highlighted lines in  logcat...if you see those highlighted lines then you can see that error is related to "NumbeFormatException"...and also you see ' Invalid int: "abc" ' ,with a knowledge of "NumbeFormatException" and ' Invalid int: "abc" ' we can guess that error is related to NumberConversion and also there is something wrong with "abc" ...and you can see that these error occur in the Mainactivity.java. So, we'll move to MainActivity.java
+
+  We will look  only the highlighted lines in  logcat...if we see those highlighted lines then we can see that error is related to "NumbeFormatException"...and also we see ' Invalid int: "abc" ' ,with a error of "NumbeFormatException" and ' Invalid int: "abc" ' we can guess that error is related to NumberConversion and also there is something wrong with int ...and you can see that these error occur in the Mainactivity.java by looking the file name in the So, we'll move to MainActivity.java
   
   
  #### Mainactivity.java
