@@ -27,7 +27,7 @@ If your application crashes then we'll be looking for " logcat ".
 ![logcat2](https://user-images.githubusercontent.com/25812257/37625346-8e1b5662-2bf1-11e8-954f-1421c2958318.PNG)
 
 
-### c) Next step is to filter our logcat to error mode so that we can see only those message which are related to error.Change your logcat from verbose to error mode and here is your logc
+### c) Next step is to filter our logcat to error mode so that we can see only those message which are related to error. Change your logcat from verbose to error mode and here is your logcat for error.
 
 
 ![errormode](https://user-images.githubusercontent.com/25812257/37625352-93477846-2bf1-11e8-9128-72374b4d070b.PNG)
