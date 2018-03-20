@@ -59,6 +59,6 @@ But when we run the program, our program will crash so we'll open the logcat as 
  ![dfs](https://user-images.githubusercontent.com/25812257/37627349-fdf68d78-2bf9-11e8-9a26-8af78b1c1a45.PNG)
  
  
- Now, we'll look our Mainactivity.java. Here you see that, we're not taking integers string for s1 so while parsing that string into integers in creates error.
+ Now, we'll look our Mainactivity.java. Here you see that, we're not taking integers string for s1 so while parsing that string into integers, it creates error.
  
- ###  Tips :- Sometimes your logcat is not as clear or more complex as compare to this example so in that case you'll copy the highlighted lines of your logcat and paste into google and in many cases first link is of stack-overflow and you will get answer of your questions.
+ ###  Tips :- Sometimes your logcat is not as clear or more complex as compare to this example and you have no idea about the error so in that case you'll copy the highlighted lines of your logcat and paste into google and in many cases who will get your answer on  stack-overflow.
