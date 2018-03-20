@@ -52,7 +52,7 @@ But when we run the program, our program will crash so we'll open the logcat as 
 
 
 
-  We will look  only the highlighted lines in  logcat...if we see those highlighted lines then we can see that error is related to "NumbeFormatException"...and also we see ' Invalid int: "abc" ' ,with a error of "NumbeFormatException" and ' Invalid int: "abc" ' we can guess that error is related to NumberConversion and also there is something wrong with int ...and you can see that these error occur in the Mainactivity.java by looking the file name in the So, we'll move to MainActivity.java
+   We will look only for the highlighted lines in logcat...we can see that logcat specifies error like "NumbeFormatException"...and also we see ' Invalid int: "abc" ' ,with a error of "NumbeFormatException" and ' Invalid int: "abc" ' we can guess that error is related to NumberConversion and also there is something wrong with int ...and you can see that these error occur in the Mainactivity.java by looking the path in the first line. So, we'll move back to MainActivity.java
   
   
  #### Mainactivity.java
