@@ -11,7 +11,7 @@ If your application crashes then we'll be looking for " logcat ".
  ### What is logcat ?
   
   Logcat is a command-line tool that dumps a log of system messages, including stack traces when the device throws an error and messages that you have written from your app with the Log class. 
-  [Definition by :- https://developer.android.com/studio/command-line/logcat.html ]
+  For more  https://developer.android.com/studio/command-line/logcat.html ]
   
 
           
