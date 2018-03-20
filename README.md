@@ -33,7 +33,7 @@ If your application crashes then we'll be looking for " logcat ".
 ![errormode](https://user-images.githubusercontent.com/25812257/37625352-93477846-2bf1-11e8-9128-72374b4d070b.PNG)
 
 
-Great!! now you know how to open logcat. Now let's learn how to use logcat.
+Great!! now you know how to open logcat. Now let's learn how to use it.
 
 Let's take an example.  The Below program converts two string numbers into integers, calculates the sum and prints the result in TextView as you can see the layout.xml below.. but to learn how to use logcat I have made mistake in this code..Let's resolve the error by seeing the logcat. 
 
