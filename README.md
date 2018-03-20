@@ -4,9 +4,9 @@
 
 ## Solution:-
 
-The best way to learn is by solving problem by yourself. Here I'll tell you how to proceed when your app crashes suddenly and you have no idea.
+The best way to learn is to solve problem by yourself. Here I'll tell you how to proceed when your app crashes suddenly and you have no idea.
 
-If your application crashes then we'll be looking after " logcat ".
+If your application crashes then we'll be looking for " logcat ".
 
  ### What is logcat ?
   
@@ -15,13 +15,13 @@ If your application crashes then we'll be looking after " logcat ".
   
 
           
-###  a) You can find logcat in the bottom of your Android Studio Screen.
+###  a) You can find logcat at the bottom of your Android Studio Screen.
 
 
 ![logcat](https://user-images.githubusercontent.com/25812257/37620112-580c5e1e-2be1-11e8-91b1-32f42b4662f9.PNG)
 
 
-###  b) Click "logcat" and  there you see lot of messages.
+###  b) Click "logcat" and  there you will see lot of messages.
 
 ![logcat2](https://user-images.githubusercontent.com/25812257/37625346-8e1b5662-2bf1-11e8-954f-1421c2958318.PNG)
 
