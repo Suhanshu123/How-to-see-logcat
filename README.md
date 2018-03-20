@@ -61,4 +61,6 @@ But when we run the program, our program will crash so we'll open the logcat as 
  
  Now, we'll look our Mainactivity.java. Here you see that, we're not taking integers string for s1 so while parsing that string into integers, it creates error.
  
- ###  Tips :- Sometimes your logcat is not as clear or more complex as compare to this example and you have no idea about the error so in that case you'll copy the highlighted lines of your logcat and paste into google and in many cases who will get your answer on  stack-overflow.
+ ###  Tip :- Sometimes your logcat might not be easy to understand, or can more complex as compared to this example and you might not have any  idea about the error, so in that case just copy the highlighted lines of your logcat and paste on google and in many cases you will get your solution on stack-overflow
+ 
+                                                             ####Special thanks to :-  FlyingKripto[https://github.com/FLYINGKRIPTO/]
