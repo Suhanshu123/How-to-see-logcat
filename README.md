@@ -35,7 +35,7 @@ If your application crashes then we'll be looking for " logcat ".
 
 Great!! now you know how to open logcat. Now let's learn how to use it.
 
-Let's take an example.  The Below program converts two string numbers into integers, calculates the sum and prints the result in TextView as you can see the layout.xml below.. but to learn how to use logcat I have made mistake in this code..Let's resolve the error by seeing the logcat. 
+Let's take an example and with the same concept you can solve any problem. The Below program converts two string numbers into integers, calculates the sum and prints the result in TextView as you can see the layout.xml below.. but to learn how to use logcat I have made mistake in this code..Let's resolve the error by seeing the logcat. 
 
 
 #####  MainActivity.java
